@@ -1,0 +1,111 @@
+.form-calc {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: var(--sombra);
+    background: var(--laranja);
+  }
+  
+  .form-calc p {
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--branco);
+  }
+  
+  .form-calc span {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: var(--branco);
+    padding: 0 10px;
+  }
+  
+  .form-calc h2 {
+    font-size: 2em;
+    font-weight: 600;
+    color: var(--branco);
+  }
+  
+  .form-calc label {
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--branco);
+    padding: 0 10px;
+  }
+  
+  .inputCalc {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: var(--cinza);
+    margin: 10px 0;
+  }
+  
+  .inputCalc input, 
+  .inputCalc select {
+    margin: 5px 10px 5px 0px;
+    padding: 10px 20px;
+    border-radius: 13px;
+    border: 1px solid #fff7f7;
+    box-shadow: var(--sombra);
+    transition: 0.3s;
+  }
+  
+  .inputCalc input:focus, 
+  .inputCalc select:focus {
+    color: var(--laranja-claro);
+    font-weight: 600;
+  }
+  
+  .btn-calc {
+    padding: 10px 20px;
+    border-radius: 13px;
+    border: 1px solid #fff7f7;
+    background: var(--laranja);
+    color: var(--branco);
+    font-weight: 600;
+    box-shadow: var(--sombra);
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 16px;
+  }
+  
+  .btn-calc:hover {
+    color: var(--laranja);
+    background: var(--branco);
+  }
+  
+  .js-center
+  {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .js-btw
+  {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .al-center
+  {
+    align-items: center;
+  }
+  
+  .al-start
+  {
+    align-items: flex-start;
+  }
+  
+  .al-end
+  {
+    align-items: flex-end;
+  }
+  
+  .column
+  {
+    flex-direction: column;
+  }
+  
+  .w100 { width:100%; }
+  .w25 { width:25%; }
