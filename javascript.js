@@ -39,12 +39,8 @@ function calcularFin() {
   for (var i = 0; i < numParcelas; i++) {
     var jurosPeriodo = ((saldoDevedor * taxa) / 100);
 
-    console.log(jurosPeriodo);
-
     var parcelas = amortizacao + jurosPeriodo;
     saldoDevedor -= amortizacao;
-
-    console.log(parcelas);
 
     amortizacoes.push(amortizacao.toFixed(2));
     juros.push(jurosPeriodo.toFixed(2));
