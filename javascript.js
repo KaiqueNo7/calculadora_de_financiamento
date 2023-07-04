@@ -1,4 +1,3 @@
-// MASCARA PARA OS CAMPOS DO FORMULÁRIO
 $(document).ready(function() {
     $('#valor').maskMoney({
       prefix: 'R$ ',
@@ -16,8 +15,6 @@ $(document).ready(function() {
   });
 
 function calcularFin() {
-
-  // VALOR VINDO DOS CAMPOS
   var valor = $('#valor').maskMoney('unmasked')[0];
   var entrada = $('#entrada').maskMoney('unmasked')[0];
   var numParcelas = parseFloat($('#numParcelas').val());
